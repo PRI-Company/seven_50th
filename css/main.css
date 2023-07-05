@@ -23,6 +23,7 @@ body {
 }
 .anniversary {
   width: 50%;
+  margin-top: 10px;
   color: rgba(0,152,68,1);
   font-weight: Bold;
   font-size: 30px;
@@ -30,8 +31,7 @@ body {
   }
   
 .video {
-  width: 50%;
-  background: rgba(252,250,244,1);
+  width: 42%;
   margin-top: 10px;
 }
 video{
