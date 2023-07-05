@@ -3,6 +3,7 @@
 }
 body {
   font-size: 18px;
+  font-family: '游ゴシック','ヒラギノ角ゴ ProN','Hiragino Kaku Gothic ProN','メイリオ','Meiryo','sans-serif';
 }
 .container {
   display: flex;
@@ -18,20 +19,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
   overflow: hidden;
 }
 .anniversary {
   width: 50%;
   color: rgba(0,152,68,1);
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  font-family: YuGothic;
   font-weight: Bold;
   font-size: 30px;
   text-align: center;
@@ -40,13 +32,7 @@ body {
 .video {
   width: 50%;
   background: rgba(252,250,244,1);
-  position: absolute;
   margin-top: 10px;
-  top: 26%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
 }
 video{
   height: auto;
@@ -55,14 +41,7 @@ video{
 .video_warning {
   width: 50%;
   color: rgba(0,152,68,1);
-  position: absolute;
   margin-top: 10px;
-  top: 86%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  font-family: YuGothic;
   font-weight: Bold;
   font-size: 18px;
   text-align: center;
@@ -70,12 +49,6 @@ video{
 .close_tab {
   width: 320px;
   height: 80px;
-  position: absolute;
   margin-top: 10px;
-  top: 93%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   cursor:pointer
 }

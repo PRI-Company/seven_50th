@@ -16,35 +16,21 @@ body {
   background-position: center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
   margin-top: 10px;
   overflow: hidden;
 }
 .anniversary {
   width: 80%;
   color: rgba(0,152,68,1);
-  position: absolute;
   margin-top: 10px;
-  top: 9%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  font-family: YuGothic;
   font-weight: Bold;
   font-size: 30px;
   text-align: center;
   }
 .video {
-  width: 95%;
+  width: 100%;
   background: rgba(252,250,244,1);
-  position: absolute;
   margin-top: 10px;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
 }
 video{
   max-width: 100%;
@@ -53,14 +39,7 @@ video{
 .video_warning {
   width: 80%;
   color: #009844;
-  position: absolute;
   margin-top: 10px;
-  top: 55%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  font-family: YuGothic;
   font-weight: Bold;
   font-size: 20px;
   text-align: center;
@@ -68,12 +47,6 @@ video{
 .close_tab {
   width: 320px;
   height: 80px;
-  position: absolute;
   margin-top: 10px;
-  top: 60%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   cursor:pointer
 }
